@@ -1,0 +1,97 @@
+body {
+	width: 730px;
+	height: auto;
+	margin: 0 auto;
+	background-image: url("../image/bg-image-soldiers.jpg");
+	background-position: center;
+}
+
+#gamearea {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background-color: RGBA(210, 0, 12, 0.9);
+	padding: 15px;
+	border-radius: 5px 5px 0 0;
+}
+
+.line {
+	width: auto;
+	height: auto;
+}
+
+.card_position {
+display: inline-block;
+height: 142px;
+width: 142px;
+margin: 15px;
+background-color: #FFD900;
+z-index: 10;
+-webkit-box-shadow: 10px 13px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 13px 25px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 13px 25px -4px rgba(0,0,0,0.75);
+border-radius: 5px;
+}
+
+#score {
+	padding: 5px;
+	width: 100px;
+	background-color: RGBA(35, 14, 125, 0.6);
+	border: none;
+	color: #FFD900;
+	border-radius: 10px;
+	position: fixed;
+	top: 20px;
+	left: 85%;
+}
+
+.shadow {
+	-webkit-box-shadow: 10px 13px 25px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 13px 25px -4px rgba(0,0,0,0.75);
+	box-shadow: 10px 13px 25px -4px rgba(0,0,0,0.75);
+}
+
+#score p {
+	padding: 0px;
+	font-weight: bold
+}
+
+h1 {
+	text-align: center;
+	color: #FFD900;
+	font-weight: bolder;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 35pt;
+	margin: 5px;
+}
+
+img {
+	position: absolute;
+	height: auto;
+	width: auto;
+	z-index: 0;
+	display: none;
+	border-radius: 5px;
+}
+
+aside {
+	color: RGB(210, 0, 12);
+}
+
+header {
+	background-color: #230E7D;
+	border-radius: 5px;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	top: 100%;
+	color: #FFD900;
+	background-color: RGBA(35, 14, 125, 0.8);
+	text-align: center;
+}

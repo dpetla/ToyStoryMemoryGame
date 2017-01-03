@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<hmtl>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<aside>Press <strong>ESC</strong> to quit and restart</aside>
+	<header>
+		<h1>TOY STORY - MEMORY GAME</h1>
+	</header>
+	<div id='gamearea'>
+		<div clas='line' id='line1'>
+			<div class='card_position' id='card1' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card2' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card3' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card4' onclick='select(this)'>
+				<img>
+			</div>
+		</div>
+		<div class='line' id='line2'>
+			<div class='card_position' id='card5' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card6' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card7' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card8' onclick='select(this)'>
+				<img>
+			</div>
+		</div>
+		<div class='line' id='line3'>
+			<div class='card_position' id='card9' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card10' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card11' onclick='select(this)'>
+				<img>
+			</div>
+			<div class='card_position' id='card12' onclick='select(this)'>
+				<img>
+			</div>
+		</div>
+	</div>
+	<div id='score' class='shadow'>
+		<h3>Scoreboard</h3>
+		<p>Tries: <span id='tries'>0</span></p>
+		<p>Match: <span id='correct'>0</span></p>
+		<p> Score: <span id='myscore'>0</span></p>
+	</div>
+	<footer>Winter 2016 Web Programming | Developed by Douglas Petla</footer>
+	<!--imports js file-->
+	<script src='js/javascript.js'></script>
+</body>
+</hmtl>
