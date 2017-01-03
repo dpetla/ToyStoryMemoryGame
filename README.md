@@ -11,3 +11,5 @@ Create a JavaScript which will capture and responde to them.
 * capture mouse events
 * change several style attributes
 
+### Known bugs
+* message of winning game apperating before showing last card.
