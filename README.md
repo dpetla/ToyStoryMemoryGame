@@ -1,6 +1,6 @@
 # ToyStoryMemoryGame
 
-This is a simple memory game I made for my 3yr-old son to play. This was my first project in Javascript. The ideia was to practice what I had learned only using HTML, CSS and JavaScript (no jQuery, Bootstrap, etc).
+This was the first project I did in college using Javascript. The ideia was to practice what I had learned so far, such as capturing events and changing attributes, and use only HTML, CSS and JavaScript (no jQuery, Bootstrap, etc).
 
 ## Objective
 Create a JavaScript which will capture events and responde to them.
@@ -11,4 +11,4 @@ Create a JavaScript which will capture events and responde to them.
 * change several style attributes
 
 ### Known bugs
-* message of winning game apperating before showing last card.
+* some times the win game message appears before showing last card.
