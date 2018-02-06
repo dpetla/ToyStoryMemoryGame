@@ -1,18 +1,8 @@
-# ToyStoryMemoryGame
+# ToyStory Memory Game
 
-This was the first project I did in college using Javascript. The ideia was to practice what I had learned so far, such as capturing events and changing attributes, and use only HTML, CSS and JavaScript (no jQuery, Bootstrap, etc).
-
-## Objective
-Create a JavaScript which will capture events and responde to them.
-
-## Basic requirements
-* capture keyboard events
-* capture mouse events
-* change several style attributes
+An memory game for toddlers to play. This project was entirely create with HTML, CSS and Javascript (no JS and CSS frameworks).
 
 ## View
 
 ![alt text](https://github.com/dpetla/ToyStoryMemoryGame/blob/master/image/MemoryGameScreen_opt.jpg)
 
-### Known bugs
-* some times the win game message appears before showing last card.
