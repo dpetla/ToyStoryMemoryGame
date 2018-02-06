@@ -10,5 +10,9 @@ Create a JavaScript which will capture events and responde to them.
 * capture mouse events
 * change several style attributes
 
+## View
+
+![alt text](https://github.com/dpetla/ToyStoryMemoryGame/blob/master/image/MemoryGameScreen_opt.jpg)
+
 ### Known bugs
 * some times the win game message appears before showing last card.
